@@ -1,0 +1,64 @@
+/* ---
+Colors ------------------------------------------------------------------------ 
+shadow - rgba(51, 51, 51, .08); 
+Lavander - #835fed;
+*/
+
+body {
+    background: #e5e5e5 url(../images/main-bg.svg) 100% 0 no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+nav.avi-pwa-navbar {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    height: 80px;
+    box-shadow: 0px 3px 18px 2px rgba(51, 51, 51, .08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.avi-pwa-logo {
+    margin-left: 33px;
+}
+
+nav.avi-pwa-navbar ul {
+    display: flex;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 33px 0 0;
+}
+
+nav.avi-pwa-navbar ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 700;
+    margin: 0 15px;
+    color: #835fed;
+}
+
+nav.avi-pwa-navbar ul li a {
+    font-family: 'Roboto', sans-serif;
+    color: #835fed;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 700;
+    border-bottom: solid 4px transparent;
+    padding: 28px 1px;
+    border-radius: 0 0 8px 8px;
+}
+
+.avi-pwa-lang-selector a {
+    text-transform: uppercase;
+}
+
+nav.avi-pwa-navbar ul li a:hover {
+    border-bottom: solid 4px #835fed;
+    border-radius: 8px 8px 0 0;
+}
